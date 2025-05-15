@@ -1,3 +1,6 @@
+
+
+
 class Ws:
     def displayinfo(self):
         print("Welcome to wscube")
