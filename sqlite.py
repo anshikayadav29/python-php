@@ -13,3 +13,4 @@ conn.execute('''
 conn.close()
 
 print("Table created successfully.")
+print ("GitHub green dot test ")
