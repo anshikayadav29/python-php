@@ -1,0 +1,13 @@
+import random
+
+def roll_dice():
+    dice = random.randint(1, 6)
+    return dice
+
+print("🎲 Dice Rolling Simulator 🎲")
+while True:
+    choice = input("Press ENTER to roll the dice or 'q' to quit: ")
+    if choice.lower() == 'q':
+        print("Exiting game... Bye! 👋")
+        break
+    print("You rolled:", roll_dice())
